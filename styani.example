@@ -6,7 +6,8 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Symfony\Component\Console\Application;
 
 $commands = [
-    Jonatas\Cli\ExampleCommand::class
+    Jonatas\Cli\ExampleCommand::class,
+    Jonatas\Cli\CreateEtapa::class
 ];
 
 $application = new Application();
